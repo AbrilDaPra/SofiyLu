@@ -4,20 +4,239 @@
     font-family: 'EB Garamond', sans-serif;
 }
 
+/* GENERAL */
+.subtitle{
+    font-family: 'Dancing Script';
+    font-size: 60px;
+    color: #AF9980;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mini-title{
+    font-size: 30px;
+    color: #d7bf9d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: #575756;
+    font-family: 'Quicksand';
+    font-size: 18px;
+    text-align: center;
+}
+
+/* OLA QUE NO FUNCIONA */
+/* .image-container{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+} 
+.image-container img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: sticky;
+    top: 0;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; 
+    background-image: url('../images/wave\ \(1\).svg'); 
+    background-repeat: no-repeat;
+    background-position: bottom;
+} */
+
 /* BANNER */
 .banner{
     background-image: url('../images/banner.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    opacity: 0.5;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+.line{
+    display: inline-block;
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    margin: 0 10px;
+}
+
+.names{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-and{
+    background-color: #a87d4b;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-and p{
+    font-size: 40px;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
 .banner h1, .banner h2, .banner h3, .banner i{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: black;
+    opacity: 1;
+}
+.banner h1{
+    font-size: 100px;
+    font-family: 'Dancing Script';
+    margin: 20px;
+}
+.banner h2{
+    font-size: 40px;
+    color: black;
+}
+.banner h3{
+    font-size: 30px;
+    text-align: center;
+}
+.banner i{
+    font-size: 30px;
+}
+
+/* CELEBRATION */
+#celebration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eee5d3;
+}
+#ubication a{
+    text-decoration: none;
+}
+#ubication a button{
+    background-color: white;
+    color: #AF9980;
+    border: none;
+    box-shadow: none;
+    border-radius: 20px;
+    padding: 5px;
+    font-family: 'Quicksand';
+}
+#ubication a button:hover{
+    background-color: #AF9980;
+    color: white;
+}
+
+#date, #ubication, #address{
+    margin-bottom: 30px;
+}
+
+
+/* CAROUSEL */
+#carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.carousel{
+    width: 400px;
+}
+
+/* PARTY */
+#party, #gifts{
+    background-color: #eee5d3;
+}
+#party h3{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#party .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+#party .circle{
+    background-color: #e6d6be;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+.circle h4{
+    padding-top: 140px;
+}
+.circle h6{
+    font-size: 16px;
+}
+
+/* GIFTS */
+.cbu{
+    background-color: #e6d6be;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cbu h3{
+    font-size: 20px;
+    margin: 30px;
+}
+
+/* FINAL */
+#final{
+    height: 20vh;
+    background-color: #eee5d3;
+}
+#final h1{
+    font-family: 'Dancing Script';
+    font-size: 40px;
+}
+#final .circle-and{
+    background-color: #AF9980;
+    width: 40px;
+    height: 40px;
+}
+#final .circle-and p{
+    color: #575756;
+    font-size: 30px;
+}
+
+#final .col a{
+    text-decoration: none;
+    color: #AF9980;
+}
+#final .col a h3{
+    font-size: 25px;
+}
+
+/* FOOTER */
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+footer p a{
+    color: #a87d4b;
+    text-decoration: none;
+}
+footer p a:hover{
+    color: #AF9980;
 }
