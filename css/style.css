@@ -242,19 +242,6 @@
     align-items: center;
 }
 
-
-/* CAROUSEL */
-#carousel{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-}
-.carousel{
-    width: 400px;
-}
-
 /* PARTY */
 #party{
     margin-top: 50px;
@@ -290,7 +277,7 @@
 #dress-animation{
     width: 150px;
 }
-#btnAbrirModal2, #btnAbrirModal3, #btnAbrirModal4, .btn-pics, .btn-confirme{
+#btnAbrirModal2, #btnAbrirModal3, #btnAbrirModal4, .btn-pics, .btn-confirme, .btn-map{
     background-color: #AF9980;
     color: white;
     border: none;
@@ -301,7 +288,7 @@
     padding: 10px 20px;
     cursor: pointer;
 }
-#btnAbrirModal2:hover, #btnAbrirModal3:hover, #btnAbrirModal4:hover, .btn-pics:hover, .btn-confirme:hover{
+#btnAbrirModal2:hover, #btnAbrirModal3:hover, #btnAbrirModal4:hover, .btn-pics:hover, .btn-confirme:hover, .btn-map:hover{
     background-color: #eee5d3;
     color: #AF9980;
 }
@@ -355,19 +342,44 @@
 }
 #us .simple{
     width: 100%;
-    height: 500px;
+    height: 400px;
     margin: 4px;
 }
 #us .simple img{
     object-position: top;
 }
-#us .container{
-    max-width: 800px; /* Ajusta el ancho máximo de la galería */
-    margin: 0 auto; /* Centra la galería en la pantalla */
-}
 #us .col{
     padding: 0px;
 }
+.carousel .container{
+    max-width: 600px;
+    position: relative;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #d7bf9d;
+  border-radius: 50%;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-control-prev{
+    margin-left: 500px;
+}
+.carousel-control-next{
+margin-right: 500px;
+}
+
+.carousel-control-prev img,
+.carousel-control-next img {
+  width: 20px;
+  height: 20px;
+}
+
 
 /* GIFTS */
 #gifts{
@@ -386,6 +398,9 @@
     margin: 30px;
     font-family: 'Quicksand';
     text-align: center;
+}
+.modal-gift{
+    width: 40%;
 }
 
 /* CONFIRME ASISTENCIA */

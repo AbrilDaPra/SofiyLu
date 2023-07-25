@@ -9,7 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=EB+Garamond&family=Quicksand&display=swap" rel="stylesheet">
         <!-- FAVICON -->
-        <link rel="shortcut icon" href="#">
+        <link rel="shortcut icon" href="./images/favicon.png">
         <!-- FONTAWESOME -->
         <script src="https://kit.fontawesome.com/50ca9e2b0b.js" crossorigin="anonymous"></script>
         <!-- CSS -->
@@ -91,7 +91,9 @@
                   <span class="cerrar" id="btnCerrarModal">&times;</span>
                   <h2>¿Cómo llegar a la boda?</h2>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.0044092052203!2d-58.16219702330631!3d-34.931426374880644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2da46dd095de1%3A0x54174ff75eed63dd!2sEl%20Bamboo%20Eventos!5e0!3m2!1sen!2sar!4v1689706789348!5m2!1sen!2sar" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                  <a href="https://www.google.com/maps?ll=-34.931431,-58.159622&z=16&t=m&hl=en&gl=AR&mapclient=embed&cid=6059399747518424029" target="_blank"><button>AMPLIAR MAPA</button></a>
+                  <a href="https://www.google.com/maps?ll=-34.931431,-58.159622&z=16&t=m&hl=en&gl=AR&mapclient=embed&cid=6059399747518424029" target="_blank">
+                    <button class="btn-map">AMPLIAR MAPA</button>
+                  </a>
                 </div>
               </div>
 
@@ -170,34 +172,116 @@
           <section id="us">
             <h2 class="subtitle">Momentos de nuestra historia</h2>
 
-            <div class="container text-center">
-              <!-- FIRST ROW -->
-              <div class="row">
-                <div class="col double">
-                  <img src="./images/carousel-1.jpeg" alt="">
-                </div>
-                <div class="col double">
-                  <img src="./images/carousel-2.jpeg" alt="">
-                </div>
-              </div>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <!-- PRIMER CARRUSEL -->
+                  <div class="container text-center">
+                    <!-- FIRST ROW -->
+                    <div class="row">
+                      <div class="col double">
+                        <img src="./images/carousel-1.jpeg" alt="">
+                      </div>
+                      <div class="col double">
+                        <img src="./images/carousel-2.jpeg" alt="">
+                      </div>
+                    </div>
+      
+                    <!-- SECOND ROW -->
+                    <div class="row">
+                      <div class="col simple">
+                        <img src="./images/carousel-3.jpeg" alt="">
+                      </div>
+                    </div>
+      
+                    <!-- THIRD ROW -->
+                    <div class="row">
+                      <div class="col double">
+                        <img src="./images/carousel-4.jpeg" alt="">
+                      </div>
+                      <div class="col double">
+                        <img src="./images/carousel-5.jpeg" alt="">
+                      </div>
+                    </div>
+                  </div>
 
-              <!-- SECOND ROW -->
-              <div class="row">
-                <div class="col simple">
-                  <img src="./images/carousel-3.jpeg" alt="">
                 </div>
-              </div>
+                <div class="carousel-item">
+                  <!-- SEGUNDO CARRUSEL -->
+                  <div class="container text-center">
+                    <!-- FIRST ROW -->
+                    <div class="row">
+                      <div class="col double">
+                        <img src="./images/carousel-6.jpeg" alt="">
+                      </div>
+                      <div class="col double">
+                        <img src="./images/carousel-7.jpeg" alt="">
+                      </div>
+                    </div>
+      
+                    <!-- SECOND ROW -->
+                    <div class="row">
+                      <div class="col simple">
+                        <img src="./images/carousel-3.jpeg" alt="">
+                      </div>
+                    </div>
+      
+                    <!-- THIRD ROW -->
+                    <div class="row">
+                      <div class="col double">
+                        <img src="./images/carousel-4.jpeg" alt="">
+                      </div>
+                      <div class="col double">
+                        <img src="./images/carousel-5.jpeg" alt="">
+                      </div>
+                    </div>
+                  </div>
 
-              <!-- THIRD ROW -->
-              <div class="row">
-                <div class="col double">
-                  <img src="./images/carousel-4.jpeg" alt="">
                 </div>
-                <div class="col double">
-                  <img src="./images/carousel-5.jpeg" alt="">
+                <div class="carousel-item">
+                  <!-- TERCER CARRUSEL -->
+                  <div class="container text-center">
+                    <!-- FIRST ROW -->
+                    <div class="row">
+                      <div class="col double">
+                        <img src="./images/carousel-1.jpeg" alt="">
+                      </div>
+                      <div class="col double">
+                        <img src="./images/carousel-2.jpeg" alt="">
+                      </div>
+                    </div>
+      
+                    <!-- SECOND ROW -->
+                    <div class="row">
+                      <div class="col simple">
+                        <img src="./images/carousel-3.jpeg" alt="">
+                      </div>
+                    </div>
+      
+                    <!-- THIRD ROW -->
+                    <div class="row">
+                      <div class="col double">
+                        <img src="./images/carousel-4.jpeg" alt="">
+                      </div>
+                      <div class="col double">
+                        <img src="./images/carousel-5.jpeg" alt="">
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
               </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
+
+            
           </section>
            
 

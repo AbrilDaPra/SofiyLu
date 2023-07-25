@@ -28,26 +28,30 @@ setInterval(updateCountdown, 1000);
 
 // ANIMATION
 function loadRingAnimation() {
-    const animationContainer = document.getElementById('animation-container');
-    const animation = bodymovin.loadAnimation({
-      container: animationContainer,
-      renderer: 'svg',
-      loop: true,
-      autoplay: true,
-      path: '../lottie/ring.json',
-    });
+  const animationContainer = document.getElementById('animation-container');
+  const baseURL = window.location.href;
+
+  const animation = bodymovin.loadAnimation({
+    container: animationContainer,
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: baseURL + 'lottie/ring.json',
+  });
 }
 
 loadRingAnimation();
 
 function loadDressAnimation(){
   const dressAnimationContainer = document.getElementById("dress-animation");
+  const baseURL = window.location.href;
+
   const animation = bodymovin.loadAnimation({
     container: dressAnimationContainer,
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: '../lottie/dresscode.json',
+    path: baseURL + 'lottie/dresscode.json',
   });
 }
 
@@ -55,12 +59,14 @@ loadDressAnimation();
 
 function loadNotesAnimation(){
   const notesAnimationContainer = document.getElementById("notes-animation");
+  const baseURL = window.location.href;
+
   const animation = bodymovin.loadAnimation({
     container: notesAnimationContainer,
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: '../lottie/notes.json'
+    path: baseURL + 'lottie/notes.json',
   });
 }
 
@@ -68,12 +74,14 @@ loadNotesAnimation();
 
 function loadAnimationGift(){
   const animationGiftContainer = document.getElementById('animation-gift-container');
+  const baseURL = window.location.href;
+
   const animation = bodymovin.loadAnimation({
     container: animationGiftContainer,
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: '../lottie/gift.json',
+    path: baseURL + 'lottie/gift.json',
   });
 }
 
@@ -81,12 +89,14 @@ loadAnimationGift();
 
 function loadAnimationCamera(){
   const animationCameraContainer = document.getElementById('camera-animation');
+  const baseURL = window.location.href;
+
   const animation = bodymovin.loadAnimation({
     container: animationCameraContainer,
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: '../lottie/camera.json',
+    path: baseURL + 'lottie/camera.json',
   });
 }
 
