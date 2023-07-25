@@ -468,6 +468,9 @@ footer p a:hover{
         font-size: 30px;
         margin: 0;
     }
+    #us img{
+        height: auto;
+    }
     .carousel{
         margin: 0px 8px 0px 8px;
     }
@@ -489,9 +492,10 @@ footer p a:hover{
         text-align: center;
     }
     .modal {
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     .modal-contenido{
         width: 90%;
