@@ -519,4 +519,10 @@ footer p a:hover{
     .circle-container img {
         width: 100px;
     }
+    /* ANIMACIONES */
+    #animation-container, #dress-animation, #camera-animation, #animation-gift-container, #notes-animation{
+        width: 80px;
+        height: 80px;
+        margin: 10px;
+    }
 }
