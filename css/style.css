@@ -474,15 +474,20 @@ footer p a:hover{
         font-size: 30px;
         margin: 0;
     }
-    #us img{
-        height: auto;
+    #us .col img{
         max-width: 100%;
+        height: auto;
+    }
+    .carousel .container{
+        max-width: 100%;
+        padding-left: 8px;
+        padding-right: 8px;
     }
     .carousel{
         margin: 0px 8px 0px 8px;
     }
     .carousel-control-prev, .carousel-control-next{
-        margin: 0;
+        margin: 0px 8px 0px 8px;
     }
     .subtitle{
         font-size: 40px;
@@ -517,7 +522,7 @@ footer p a:hover{
     .circle-container img {
         width: 60px;
     }
-    #us .double{
+    #us .col{
         margin: 5px;
     }
     /* ANIMACIONES */
