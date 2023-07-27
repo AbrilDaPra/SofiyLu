@@ -326,12 +326,10 @@
     object-fit: cover;
     display: block;
 }
-#us .double{
-    width: 100%;
-    margin: 10px;
-}
 #us .col{
     padding: 0px;
+    width: 100%;
+    margin: 5px;
 }
 .carousel .container{
     max-width: 600px;
@@ -469,7 +467,7 @@ footer p a:hover{
         margin: 0;
     }
     #us img{
-        height: auto;
+        height: 100%;
     }
     .carousel{
         margin: 0px 8px 0px 8px;
