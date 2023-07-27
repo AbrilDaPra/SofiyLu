@@ -475,7 +475,8 @@ footer p a:hover{
         margin: 0;
     }
     #us img{
-        height: 100%;
+        height: auto;
+        max-width: 100%;
     }
     .carousel{
         margin: 0px 8px 0px 8px;
