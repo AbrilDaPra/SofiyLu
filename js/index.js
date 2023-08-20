@@ -21,7 +21,7 @@ function updateCountdown(){
 }
 
 function formatTime(time){
-    return time < 10 ? `0${time}` : time;
+  return time < 10 ? `0${time}` : time;
 }
 
 setInterval(updateCountdown, 1000);
@@ -36,7 +36,7 @@ function loadRingAnimation() {
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: baseURL + 'lottie/ring.json',
+    path: baseURL + './lottie/ring.json',
   });
 }
 
@@ -51,7 +51,7 @@ function loadDressAnimation(){
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: baseURL + 'lottie/dresscode.json',
+    path: baseURL + './lottie/dresscode.json',
   });
 }
 
@@ -66,7 +66,7 @@ function loadNotesAnimation(){
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: baseURL + 'lottie/notes.json',
+    path: baseURL + './lottie/notes.json',
   });
 }
 
@@ -81,7 +81,7 @@ function loadAnimationGift(){
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: baseURL + 'lottie/gift.json',
+    path: baseURL + './lottie/gift.json',
   });
 }
 
@@ -96,7 +96,7 @@ function loadAnimationCamera(){
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: baseURL + 'lottie/camera.json',
+    path: baseURL + './lottie/camera.json',
   });
 }
 
