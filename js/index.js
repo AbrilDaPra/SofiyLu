@@ -29,14 +29,15 @@ setInterval(updateCountdown, 1000);
 // ANIMATION
 function loadRingAnimation() {
   const animationContainer = document.getElementById('animation-container');
-  const baseURL = window.location.href;
+  // const baseURL = window.location.href;
 
   const animation = bodymovin.loadAnimation({
     container: animationContainer,
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: baseURL + './lottie/ring.json',
+    // path: baseURL + './lottie/ring.json',
+    path: 'https://app.lottiefiles.com/animation/873bb80e-6b4f-417f-b627-d39a5f230f33',
   });
 }
 
